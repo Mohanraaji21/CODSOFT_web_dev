@@ -47,6 +47,8 @@
 
 .logo
 {
+    display: flex;
+    margin: auto;
     text-decoration: none;
     font-size: 35px;
     font-weight: 800;
@@ -57,19 +59,23 @@
 
 .navcont, a
 {
+    display: flex;
     text-decoration: none;
     font-weight: 800;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     color: aliceblue;
     padding-left: 40px;
+    flex-wrap: wrap;
 }
 
 .logoimg
 {
+    display: flex;
     height: 80px;
     width: 80px;
     z-index: 10;
+    justify-content: flex-start;
 }
 
 .home
@@ -84,6 +90,9 @@
     background-size: 1700px;
     box-sizing: border-box;
     align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .hometitle
@@ -96,6 +105,9 @@
    /*color: aliceblue;*/
    color:black;
     font-family: "Rakkas", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homecont
@@ -108,11 +120,28 @@
     /*color: aliceblue;*/
     color:black;
     font-family: "Protest Riot", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.innerboxhome
+{
+   /* background-color: rgba(14, 231, 213, 0.90);*/
+    background-color: rgba(240, 248, 255, 0.75);
+    width: 650px;
+    height: 650px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .homebutton
 {
-    margin-left: 250px;
+    /*margin-left: 250px;*/
     margin-top: 20px;
     align-items: center;
     width: 150px;
@@ -123,16 +152,18 @@
     border-radius: 15px;
     background-color: gold;
     font-family: "Honk", system-ui;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
 }
 
-.innerboxhome
+.homebutton:hover
 {
-   /* background-color: rgba(14, 231, 213, 0.90);*/
-    background-color: rgba(240, 248, 255, 0.75);
-    width: 650px;
-    height: 650px;
-    padding-top: 80px;
+   
+    background-color: rgb(192, 255, 250);
+    transition: 4 ease-out;
 }
 
 /*.innerboxhome
@@ -169,11 +200,17 @@
 
 .introimg
 {
-    margin-top: 130px;
-    margin-left: 70px;
+     margin-top: 130px;
+    /*margin-left: 70px;*/
     width:500px;
     height: 600px;
     /*mix-blend-mode: multiply;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: space-evenly;
+    justify-content: flex-end;
+    
 }
 
 .intro
@@ -185,6 +222,19 @@
     background-color: #003135;
     /*background-color: beige;*/
     z-index: 6;
+    display: flex;
+    /*background-color: linear-gradient( rgb(34, 30, 30) rgb(238, 156, 156));*/
+    background: linear-gradient( rgb(34, 30, 30), rgb(140, 52, 240));
+
+    
+    @media (min-width: 575px)  { 
+
+        .intro{
+            flex-wrap: wrap;
+            height: 1460px;
+        }
+        
+    }
 
 }
 
@@ -198,7 +248,7 @@
     text-align: center;
     right: 80px;
     bottom: 10px;
-    justify-content: space-between;
+    
     border: solid #024950 ;
     border-width: 5px;
     margin-left: 800px;
@@ -206,7 +256,13 @@
     z-index: 7;
     padding-top: 50px;
     background-color: #024950;
+    
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-wrap: wrap;
 }
 
 .introtitle
@@ -214,6 +270,8 @@
     font-size: 50px;
     color: aliceblue;
     font-family: "Anton SC", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .introcontent
@@ -223,6 +281,8 @@
     padding-right: 20px;
     color: aliceblue;
     font-family: "Abel", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .dietimg
@@ -258,6 +318,9 @@
     width: auto;
     box-sizing: border-box;
     background-color: #024950;
+    /*background: linear-gradient(rgb(140, 52, 240), rgb(34, 30, 30) );*/
+
+   
 }
 
 .dietbox
@@ -265,6 +328,7 @@
     height: 320px;
     width: 400px;
     background-color: aqua;
+    background: linear-gradient(rgb(19, 200, 255), rgb(231, 69, 210) );
     position: absolute;
     margin-top: 330px;
     box-sizing: border-box;
@@ -280,6 +344,8 @@
     margin-top: 330px;
     position: absolute;
     box-sizing: border-box;
+    background: linear-gradient(rgb(19, 200, 255), rgb(231, 69, 210) );
+
 }
 
 .onebox
@@ -291,6 +357,8 @@
     position: absolute;
     margin-top: 330px;
     box-sizing: border-box;
+    background: linear-gradient(rgb(19, 200, 255), rgb(231, 69, 210) );
+
 }
 
 .sevicetitle
@@ -375,10 +443,12 @@
     height: 40px;
     width: 120px;
     font-size: 15px;
-    background-color: #050A44;
-    color: antiquewhite;
+    background-color: #00e988;
+    color: rgb(3, 2, 0);
     border-radius: 10px;
     font-family: "Abel", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .workbut
@@ -389,10 +459,12 @@
     height: 40px;
     width: 120px;
     font-size: 15px;
-    background-color: #050A44;
-    color: antiquewhite;
+    background-color: #00e988;
+    color: rgb(3, 2, 0);
     border-radius: 10px;
     font-family: "Abel", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .onebut
@@ -403,17 +475,28 @@
     height: 40px;
     width: 120px;
     font-size: 15px;
-    background-color: #050A44;
-    color: antiquewhite;
+    background-color: #00e988;
+    color: rgb(3, 2, 0);
     border-radius: 10px;
     font-family: "Abel", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
 }
+
+.dietbut:hover , .workbut:hover , .onebut:hover
+{
+    background-color: #ff009d;
+    transition: 0.2s ease-in;
+    color: antiquewhite;
+    cursor: pointer;
+} 
 
 .program
 {
     height: 2500px;
     width: auto;
     background-color: #45A29E;
+    background: linear-gradient( #024950, rgb(21, 245, 234));
 
 }
 
@@ -424,6 +507,7 @@
     text-align: center;
     padding-top: 40px;
     font-family: "Pacifico", cursive;
+    color: antiquewhite;
 }
 
 .begbox
@@ -848,6 +932,7 @@
     left:900px;
     font-size: 25px;
     color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .get
@@ -861,7 +946,9 @@
 {
     height: 40px;
     width: 300px;
+    
 }
+
 
 .submit
 {
@@ -869,6 +956,8 @@
     width: 100px;
     margin-left: 30px;
     margin-top: 30px;
+    background-color: aquamarine;
+    cursor: pointer;
 }
 
 .cont
@@ -877,20 +966,23 @@
     padding-left: 100px;
     font-size: 20px;
     color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 .conttit
 {
     font-size: 40px;
     padding-left: 100px;
     color: aliceblue;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer
 {
     background-color: #0B0C10;
     color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .submit
