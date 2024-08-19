@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Gupter:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Sunflower:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Playball&family=Sunflower:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Playball&family=Style+Script&family=Sunflower:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Playball&family=Style+Script&family=Sunflower:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Playball&family=Playwrite+NG+Modern:wght@100..400&family=Style+Script&family=Sunflower:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Playball&family=Playwrite+NG+Modern:wght@100..400&family=Style+Script&family=Sunflower:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playball&family=Playwrite+NG+Modern:wght@100..400&family=Style+Script&family=Sunflower:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playball&family=Playwrite+NG+Modern:wght@100..400&family=Style+Script&family=Sunflower:wght@300&family=WindSong:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Charmonman:wght@400;700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Oooh+Baby&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playball&family=Playwrite+NG+Modern:wght@100..400&family=Style+Script&family=Sunflower:wght@300&family=WindSong:wght@400;500&display=swap');
+
+body
+{
+    margin: 0;
+    /*background-size: 650px auto;*/
+    background: linear-gradient( rgb(243, 163, 211) ,rgb(141, 149, 209));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.navigation
+{
+    justify-content: space-between;
+    align-items: left;
+    position: fixed;
+    padding-left: 750px;
+    word-spacing: 20px;
+    padding-top: 20px;
+    height: 80px;
+    width: auto;
+    z-index: 100;
+}
+
+.navigation a
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Gupter", serif;
+    color: rgb(20, 0, 34);
+    font-weight: 600;
+}
+
+.vivimg
+{
+    height: 550px;
+    width: 470px;
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.homebox
+{
+    height: 250px;
+    width: 700px;
+    position: absolute;
+    left: 630px;
+    top: 150px;
+    /*background-color: aquamarine;*/
+    text-align: center;
+    padding-top: 50px;
+}
+
+.heading
+{
+    font-size: 65px;
+    /*font-family: "Grey Qo", cursive;*/
+    font-family: "Great Vibes", cursive;
+    font-weight: 600;
+    color: rgb(0, 31, 58);
+}
+
+.subhead
+{
+    padding-top: 50px;
+    font-size: 30px;
+    /*font-family: "Edu AU VIC WA NT Hand", cursive;*/
+    font-family: "Oooh Baby", cursive;
+    font-weight: 600;
+    color: azure;
+}
+.vivek
+{
+    height: 650px;
+    width: auto;
+    /*background-color: rgb(203, 163, 240);*/
+    /*background: linear-gradient(rgb(200, 32, 134) ,rgb(39, 45, 90));*/
+    
+}
+
+.bio
+{
+    height: 650px;
+    width: auto;
+
+}
+
+.biobox
+{
+    height: 300px;
+    width: 650px;
+    position: absolute;
+    left: 50px;
+    margin-top: 20px;
+}
+
+.bioimg
+{
+    position: absolute;
+    left: 780px;
+    margin-top: 60px;
+    height: 350px;
+    width: 500px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.bio h1
+{
+
+    padding-top: 30px;
+    font-size: 55px;
+    padding-left: 50px;
+    font-family: "Style Script", cursive;
+    font-weight: 100;
+    font-family: "Playball", cursive;
+}
+
+.bio h2
+{
+    padding-top: 30px;
+    font-size: 40px;
+    padding-left: 20px;
+    font-family: "Playball", cursive;
+    font-family: "Style Script", cursive;
+    font-weight: 100;
+
+}
+
+.bio h4
+{
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 35px;
+    text-align:left;
+    font-family: "Sunflower", sans-serif;
+
+}
+
+.kalamimg
+{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.kalam
+{
+    height: 300px;
+    width: 800px;
+    left: 480px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+.kalam h3
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Sunflower", sans-serif;
+    padding-top: 20px;
+}
+
+.kalam h4
+{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Comic Neue", cursive;
+
+}
+
+.kalaiimg
+{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 880px;
+    margin-top: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.kalai
+{
+    height: 300px;
+    width: 800px;
+    box-sizing: border-box;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    margin-top: 350px;
+    border-radius: 20px;
+
+}
+
+.kalai h3
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Sunflower", sans-serif;
+    padding-top: 20px;
+}
+
+.kalai h4
+{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Comic Neue", cursive;
+
+}
+
+.padmaimg
+{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 50px;
+    margin-top: 700px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.padma
+{
+    height: 300px;
+    width: 800px;
+    left: 480px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    margin-top: 700px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.padma h3
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Sunflower", sans-serif;
+    padding-top: 20px;
+}
+
+.padma h4
+{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Comic Neue", cursive;
+
+}
+
+.achievements h1
+{
+    font-size: 55px;
+    font-family: "Playball", cursive;
+    font-weight: 100;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.achievements
+{
+    height: 1200px;
+    width: auto;
+}
+
+.award
+{
+    height: 900px;
+    width: auto;
+
+}
+
+.awardhead
+{
+    padding-top: 30px;
+    font-size: 55px;
+    padding-left: 50px;
+    font-weight: 100;
+    font-family: "Playball", cursive;
+}
+
+.awardbox
+{
+    position: absolute;
+    left: 100px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Amaranth", sans-serif;
+
+}
+
+.awardbox b
+{
+    font-family: "Playwrite NG Modern", cursive;
+    color: rgb(63, 3, 50);
+}
+
+.legacy
+{
+    height: 700px;
+    width: auto;
+}
+
+.legacy h1 
+{
+    padding-top: 30px;
+    font-size: 55px;
+    padding-left: 50px;
+    font-weight: 100;
+    font-family: "Playball", cursive;
+}
+
+.legbox
+{
+    position: absolute;
+    left: 650px;
+    margin-top: 130px;
+    font-size: 25px;
+    width: 600px;
+    text-align: justify;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(6, 60, 107);
+}
+
+.legimg
+{
+    position: absolute;
+    left: 40px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.quotes
+{
+    height: 700px;
+    width: auto;
+}
+
+.quotes h1
+{
+    padding-top: 30px;
+    font-size: 55px;
+    padding-left: 50px;
+    font-weight: 100;
+    font-family: "Playball", cursive;
+    position: absolute;
+}
+
+/*.quoteimg
+{
+    position: absolute;
+    padding-left: 500px;
+}
+*/
+
+.quotes img
+{
+    position: absolute;
+    left: 700px;
+}
+
+.quotes div
+{
+    position: absolute;
+    left: 100px;
+    margin-top: 300px;
+    font-size: 35px;
+    width: 550px;
+    line-height: 60px;
+    font-family: "Charmonman", cursive;
+
+}
+
+.quotes h2
+{
+    position: absolute;
+    margin-top: 470px;
+    left: 400px;
+    font-size: 30px;
+    font-family: "WindSong", cursive;
+    font-weight: 400;
+}
+
+
